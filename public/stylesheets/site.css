@@ -1,0 +1,14 @@
+html {
+  font-family: Arial; }
+  html body #wrapper {
+    width: 968px;
+    margin: 0px auto; }
+    html body #wrapper #header {
+      margin: 5px; }
+    html body #wrapper ul#navigation {
+      padding: 0px; }
+      html body #wrapper ul#navigation li {
+        display: inline;
+        margin: 5px 0 0 5px; }
+    html body #wrapper #content {
+      margin: 5px; }
