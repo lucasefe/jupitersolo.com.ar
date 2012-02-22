@@ -1,5 +1,5 @@
 # encoding: utf-8
-require_relative "shotgun"
+require "./shotgun"
 
 Cuba.use Rack::MethodOverride
 Cuba.use Rack::Static, root: "public", urls: ["/javascripts", "/stylesheets", "/images"]
