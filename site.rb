@@ -2,7 +2,7 @@
 require "./shotgun"
 
 Cuba.use Rack::MethodOverride
-Cuba.use Rack::Static, root: "public", urls: ["/javascripts", "/stylesheets", "/images"]
+Cuba.use Rack::Static, :root => "public", :urls => ["/javascripts", "/stylesheets", "/images"]
 
 Cuba.plugin Cuba::Render
 
@@ -13,6 +13,7 @@ Cuba.define do
   on "music" do
     res.write view("music")
   end
+  
   on "bio" do
     res.write view("bio")
   end
