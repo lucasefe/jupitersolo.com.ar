@@ -1,18 +1,4 @@
-
-
-/* ===== Primary Styles ========================================================
-   Author:
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
+.container > h1 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  text-transform: uppercase; }
